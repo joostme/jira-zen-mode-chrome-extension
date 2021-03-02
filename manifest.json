@@ -1,0 +1,23 @@
+{
+    "name": "Jira Zen Mode",
+    "version": "1.0",
+    "description": "Only story. No clutter",
+    "manifest_version": 3,
+    "icons": { 
+        "16": "images/iconOpen16.png",
+        "48": "images/iconOpen48.png",
+       "128": "images/iconOpen128.png" 
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://*.atlassian.net/browse/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Zen Mode"
+    }
+}
