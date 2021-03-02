@@ -1,7 +1,7 @@
 const paneVisibility = {};
 const css = `[data-test-id="issue.views.issue-details.issue-layout.issue-layout"] [spacing=comfortable] > div:last-child, 
 [data-testid="ContextualNavigation"], 
-[data-test-id="issue.activity.comments-list"] + span { 
+[data-test-id="issue.views.issue-details.issue-layout.left-most-column"] > span:last-child { 
     display: none; 
 }
 
